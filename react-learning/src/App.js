@@ -1,10 +1,11 @@
-import {Fragment} from "react";
+import React from "react";
+import Main from "./components/pages/Main";
 
 function App() {
     return (
-        <Fragment>
-            <h1>Hello</h1>
-        </Fragment>
+        <React.Fragment>
+            <Main/>
+        </React.Fragment>
     );
 }
 
